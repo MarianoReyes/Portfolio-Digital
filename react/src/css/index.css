@@ -1,0 +1,26 @@
+/*IMPORT DE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Montserrat:wght@300;400;600;700&display=swap');
+
+body{
+  margin: 0;
+  background: rgb(87 236 159);
+  width: 100vw;
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2{
+  font-family: 'Hind Madurai', sans-serif;
+  margin: 0;
+}
+
+h3, h4{
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+p, span, a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
