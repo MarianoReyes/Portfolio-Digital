@@ -3,6 +3,9 @@
   height: 50px;
   background-color: rgb(0,0,0);
   align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
 }
 
 .navbar .container{
@@ -23,4 +26,9 @@
   color: rgb(255,255,255,0.9);
   background: rgb(255,255,255,0.2);
   border-radius: 5px;
+}
+
+.body-general{
+  height: 100%;
+  margin-top: 50px;
 }

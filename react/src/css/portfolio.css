@@ -1,0 +1,11 @@
+.body-principal-portfolio{
+    margin: 70px auto;
+    padding: 5px;
+    width: 50%;
+    display: flex;
+    flex-grow: 0;
+}
+
+.body-principal-portfolio .elemento-carrusel{
+    display: flex;
+}

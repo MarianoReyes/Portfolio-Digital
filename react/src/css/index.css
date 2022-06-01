@@ -4,13 +4,16 @@
 body{
   margin: 0;
   background: rgb(87 236 159);
-  width: 100vw;
-  height: 100vh;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  position: relative;
 }
 
-h1, h2{
+.todo{
+  display: block;
+  position: relative;
+}
+
+h1, h2, h5, h6{
   font-family: 'Hind Madurai', sans-serif;
   margin: 0;
 }
@@ -23,4 +26,10 @@ h3, h4{
 p, span, a{
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+}
+
+@media only screen and (max-width: 1000px)  {
+  body{
+    overflow-y: scroll;
+  }
 }

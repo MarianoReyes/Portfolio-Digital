@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function App() {
   return (
-    <div>
+    <div className="todo">
       <nav className="navbar">
         <div className="container">
           <Link to="/">About Me</Link>
@@ -12,7 +12,9 @@ export default function App() {
           <Link to="/contact">Contact Me</Link>
         </div>
       </nav>
-      <Outlet />
+      <div className="body-general">
+        <Outlet />
+      </div>
     </div>
   );
 }
