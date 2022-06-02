@@ -18,6 +18,22 @@
     border-radius: 5% 5% 0 0/ 10% 10% 0 0;
 }
 
+.body-principal-about .boton-download{
+    padding: 10px 10px;
+    background: black;
+    color: white;
+    border-radius: 5%/10%;
+    text-decoration: none;
+}
+
+.body-principal-about .boton-download:hover{
+    padding: 10px 10px;
+    background: rgb(0,0,0,0.8);
+    color: white;
+    border-radius: 5%/10%;
+    text-decoration: underline;
+}
+
 .white{
     color: white;
     text-align: center;

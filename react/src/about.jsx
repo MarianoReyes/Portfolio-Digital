@@ -2,6 +2,7 @@ import React from 'react';
 import './css/about.css';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import curriculum from './assets/CurriculumVitaeJoseMarianoReyes.pdf';
 import foto from './img/foto-perfil.jpg';
 import twitch from './img/proyecto_twitch.png';
 import calculadora from './img/proyecto_calculadora.png';
@@ -19,7 +20,13 @@ export default function About() {
         <div className="info">
           <h1>José Mariano Reyes Hernández</h1>
           <h4>20 años</h4>
+        </div>
+      </div>
+      <div className="body-principal-about">
+        <div>
           <p>Estudiante de 3er Año en la Universidad del Valle de Guatemala</p>
+          <br />
+          <a href={curriculum} download="CV Jose Reyes" className="boton-download">Descargar CV</a>
         </div>
       </div>
       <div className="container-port">
