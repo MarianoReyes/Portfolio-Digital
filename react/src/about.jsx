@@ -23,8 +23,20 @@ export default function About() {
         </div>
       </div>
       <div className="body-principal-about">
-        <div>
-          <p>Estudiante de 3er Año en la Universidad del Valle de Guatemala</p>
+        <div className="more-text">
+          <p>
+            Soy un estudiante en la Universidad del Valle de Guatemala en la carrera de
+            Ingeniería en Ciencias de la Computación y Tecnologías de la Información.
+
+          </p>
+          <br />
+          <p>
+            Actualmente me encuentro en tercer año de la carrera y lo mostrado en esta página son
+            son algunos de mis proyectos realizados.
+
+          </p>
+          <br />
+          <p>Si deseas leer más sobre mí puedes consultar el siguiente enlace:</p>
           <br />
           <a href={curriculum} download="CV Jose Reyes" className="boton-download">Descargar CV</a>
         </div>

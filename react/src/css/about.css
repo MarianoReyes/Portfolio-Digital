@@ -52,6 +52,18 @@
     font-size: 25px;
 }
 
+.body-principal-about .more-text {
+    width: 50%;
+}
+
+.body-principal-about .more-text p{
+    text-align: justify;
+}
+
+.body-principal-about .more-text a{
+    text-align: center;
+}
+
 .body-principal-about .foto-perfil{
     flex-grow: 1;
     flex-basis: 0;
