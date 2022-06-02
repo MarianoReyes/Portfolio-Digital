@@ -2,8 +2,6 @@
 /* eslint-disable import/no-unresolved */
 import React from 'react';
 import './css/portfolio.css';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
 import twitch from './img/proyecto_twitch.png';
 import calculadora from './img/proyecto_calculadora.png';
 import laberinto from './img/proyecto_laberinto.png';
@@ -13,30 +11,6 @@ import bubble from './img/proyecto_bubble.png';
 export default function Portfolio() {
   return (
     <main className="body-principal-portfolio">
-      <div className="container-port">
-        <Carousel autoPlay="true" interval="10000" infiniteLoop="true">
-          <div className="elemento-carrusel">
-            <img alt="foto" src={twitch} />
-            <p className="legend">Copia de Twitch con css y React</p>
-          </div>
-          <div className="elemento-carrusel">
-            <img alt="foto" src={bubble} />
-            <p className="legend">Copia de Netflix</p>
-          </div>
-          <div>
-            <img alt="foto" src={calculadora} />
-            <p className="legend">Calculadora funcional en React y vite</p>
-          </div>
-          <div>
-            <img alt="foto" src={laberinto} />
-            <p className="legend">Laberinto con React</p>
-          </div>
-          <div>
-            <img alt="foto" src={memoria} />
-            <p className="legend">Memoria con React</p>
-          </div>
-        </Carousel>
-      </div>
       <div className="center"><h1>Descripcion Detallada de cada Proyecto</h1></div>
       <div className="container-list">
         <div className="elemento-list">
