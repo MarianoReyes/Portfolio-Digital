@@ -45,9 +45,9 @@
 }
 
 .body-principal-portfolio .container-list .elemento-list .texto .tags .tag{
-    background: rgb(87 236 159);
+    background: #3D50E1;
     padding: 5px;
-    color: black;
+    color: white;
     border-radius: 5% / 20%;
     margin: 5px;
 }
