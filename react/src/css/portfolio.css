@@ -13,6 +13,7 @@
 .body-principal-portfolio .container-list{
     width: 50%;
     margin: auto;
+   
 }
 
 .body-principal-portfolio .container-list .elemento-list{
@@ -23,6 +24,7 @@
 .body-principal-portfolio .container-list .elemento-list img{
     width: 100%;
     border-radius: 5% 5% 0 0/ 10% 10% 0 0;
+    box-shadow: 5px 5px 5px 1px black;
 }
 
 .body-principal-portfolio .container-list .elemento-list .texto{
@@ -33,6 +35,7 @@
     border-radius: 0 0 5% 5%/ 0 0 20% 20% ;
     padding: 20px 0;
     transform: translateY(-10px);
+    box-shadow: 5px 5px 5px 1px black;
 }
 
 .body-principal-portfolio .container-list .elemento-list .texto p{

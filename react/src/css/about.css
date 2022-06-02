@@ -61,6 +61,7 @@
     width: 100%;
     height: auto;
     border-radius: 50%;
+    box-shadow: 5px 8px 5px 1px black;
     margin-top: 20px;
     margin-bottom: 20px;
 }
