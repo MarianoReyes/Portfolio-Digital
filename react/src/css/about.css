@@ -40,6 +40,10 @@
     margin-bottom: 10px;
 }
 
+.text-left{
+    text-align: left!important;
+}
+
 .body-principal-about h1{
     font-size: 50px;
 }
@@ -107,4 +111,26 @@
         font-size: 14px;
     }
 
+}
+
+.more-text img{
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px;
+}
+
+.more-text .npm{
+    width: 70px;
+    height: 60px;
+    margin: 5px 10px;
+}
+
+.more-text h4{
+    margin: 15px 0;
+}
+
+.more-text .elemento{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -9,6 +9,7 @@ import calculadora from './img/proyecto_calculadora.png';
 import laberinto from './img/proyecto_laberinto.png';
 import memoria from './img/proyecto_memoria.png';
 import bubble from './img/proyecto_bubble.png';
+import Conocimientos from './conociminetos';
 
 export default function About() {
   return (
@@ -39,6 +40,15 @@ export default function About() {
           <p>Si deseas leer más sobre mí puedes consultar el siguiente enlace:</p>
           <br />
           <a href={curriculum} download="CV Jose Reyes" className="boton-download">Descargar CV</a>
+          <br />
+          <br />
+          <h4 className="text-left">Conocimientos:</h4>
+          <p>
+            A lo largo de este tiempo he tenido la oportunidad de aprender
+            diferentes téctinas de programación las cuales se despliegan a continuación:
+
+          </p>
+          <Conocimientos />
         </div>
       </div>
       <div className="container-port">
